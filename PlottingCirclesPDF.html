@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "Styles.css">
+    <script src="brains.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>doc</title>
+</head>
+<body>
+    <div id = "menuBox" class = "fileSelector">
+        <ul class = "fileSelector">
+            <li><a class = "btn menu"; href = "index.html">Home</a></li>
+            <li><button class = "btn menu"; onclick="circleClick()">Projects</button>
+                <div class = "circleSelector menu toHide" style = "display: none;">
+                    <ul >
+                        <li><button class = "btn menu">Points on Circle Visualization</button>
+                            <ul>
+                                <li><a class = "btn menu"; href = "PlottingCirclesPDF.html">Exploration and explination</a></li>
+                                <li class = "btn menu">TO ADD Python File for plotting circles</li>
+                            </ul>
+                        </li> 
+                    </ul>
+                </div>
+            </li>
+            <li><button class = "btn menu">Option 2</button></li>
+            <li><a class = "btn menu"; href = "#contactMe">Contact</a></li>
+        </ul>
+    </div>
+    <script>
+        $("#menuBox").hover(function() {
+        }, function() {
+        menuHide()
+        })
+    </script>
+    <div class = "Header">
+        <h1> <b class="Rayan">Rayan</b><b class="Kasam">. Kasam</b></h1>
+    </div>
+    <p style="text-align:center; offset-position: 15% 100%;"> 
+        <iframe class = "circlePDFFrame" src='Assets/Plotting Points on a Circle.pdf' height="1000" width="85%"></iframe>
+    </p>
+</body>
+</html>

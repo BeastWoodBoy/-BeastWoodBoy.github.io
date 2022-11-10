@@ -8,6 +8,9 @@ body {
     overflow-x: hidden;
     
 }
+.firstSectionContainer{
+    height: 100vh
+}
 .Header{
     text-align: center;
     padding-bottom: 100;
@@ -227,15 +230,16 @@ a.button {
 .contactMe{
     color: white;
     text-shadow: 0 0 4px black;
-    font-size: 40;
+    font-size: 4em;
     margin: auto;
 }
 .socialsContainer{
     display: flex;
     justify-content: space-evenly;
-    align-self: center;
+    align-self: top;
+    margin-top: -5%;
     height: 128px;
-    width: calc(128px*4 + 4*50px);
+    width: calc(128px*3 + 3*50px);
     /* translate: -20%; */
 }
 .socials:hover{

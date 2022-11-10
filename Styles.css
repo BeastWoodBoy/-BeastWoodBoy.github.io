@@ -9,7 +9,9 @@ body {
     
 }
 .firstSectionContainer{
-    height: 100vh
+    min-height: 100vh;
+    height: fit-content;
+    overflow:hidden
 }
 .Header{
     text-align: center;
@@ -17,6 +19,7 @@ body {
     text-shadow: #ffffff;
     transform: scale(2);
     box-shadow: #a8a8a8;
+    margin-top: 5vh;
 }
 .Rayan{
     color:#2566CA ; 
